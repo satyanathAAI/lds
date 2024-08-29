@@ -1,0 +1,17 @@
+/home/ubuntu/lds/lds_audio/Audio_cache/app2.py:56: UserWarning: You appear to be connected to a DocumentDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/documentdb
+  mongoclient = MongoClient(uri, tls=True, tlsCAFile=SSL_CA_CERT)
+ * Serving Flask app 'app2'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1112
+ * Running on http://172.31.20.42:1112
+[33mPress CTRL+C to quit[0m
+198.235.24.91 - - [27/Aug/2024 09:53:03] code 400, message Bad request version ('À\x13À')
+198.235.24.91 - - [27/Aug/2024 09:53:03] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03C\x05a\x12\x8aÿÜ\x03\x81Ãc=\x11\x88\x95IÂëb\x91Ó\x1cð\x1dz^¸;\x8eÃxc a+\x00.§'PEìVÞ\x98ZE\x04\x13\x8b\x91\x88x\x9d\x1bàâI\x13HÅT\x84²J\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+198.235.24.91 - - [27/Aug/2024 09:53:03] code 400, message Bad request version ('À(À$À\x14À')
+198.235.24.91 - - [27/Aug/2024 09:53:03] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03VXp{ú\x07\x97%á\x16\x1e\x97ôM\x9dVXi&\x07\x92±\x86ÊlÏ\x98Ð~arµ\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+205.210.31.24 - - [27/Aug/2024 11:00:25] code 400, message Bad request version ('À\x13À')
+205.210.31.24 - - [27/Aug/2024 11:00:25] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x05\x8f©\x9f\x16\x1f\x1d¦«²ä2ÔÈí\x0b¡àÂï\x81\x94±y\x07FÕ\x7f8vGð ¿\x1dM«1\x96<\x0fLÔ2\x95Ä00ï\x16;ÿéu\x19ÛÈ\x98\x1aû¿q~§ã\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+205.210.31.24 - - [27/Aug/2024 11:00:25] code 400, message Bad request version ('À(À$À\x14À')
+205.210.31.24 - - [27/Aug/2024 11:00:25] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x05ò\x8dìtIÏ\x9eþù\x8e¡3ë§@\x0d\x06\x10Ú\x06\x8c¡\x03ÍbÑúd\x09\x9c\x8c\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
