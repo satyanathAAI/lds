@@ -1,0 +1,1522 @@
+2024-08-26 13:28:41.028527: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-26 13:28:41.031926: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-26 13:28:41.042865: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-26 13:28:41.062303: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-26 13:28:41.067682: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-26 13:28:41.080572: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-08-26 13:28:41.992536: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/ubuntu/lds/lds_image/image_cache/app2.py:48: UserWarning: You appear to be connected to a DocumentDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/documentdb
+  mongoclient = MongoClient(uri, tls=True, tlsCAFile=SSL_CA_CERT)
+2024-08-26 13:28:44.491481: E tensorflow/core/lib/jpeg/jpeg_mem.cc:329] Premature end of JPEG data. Stopped at line 952/2000
+2024-08-26 13:28:44.492318: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: INVALID_ARGUMENT: jpeg::Uncompress failed. Invalid JPEG data or crop window.
+	 [[{{node DecodeJpeg}}]]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 274, in <module>
+    siamese_model(next(iter(train_dataset)))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/tensorflow/python/data/ops/iterator_ops.py", line 826, in __next__
+    return self._next_internal()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/tensorflow/python/data/ops/iterator_ops.py", line 776, in _next_internal
+    ret = gen_dataset_ops.iterator_get_next(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/tensorflow/python/ops/gen_dataset_ops.py", line 3086, in iterator_get_next
+2024-08-26 13:28:44.510572: E tensorflow/core/lib/jpeg/jpeg_mem.cc:329] Premature end of JPEG data. Stopped at line 952/2000
+    _ops.raise_from_not_ok_status(e, name)
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/tensorflow/python/framework/ops.py", line 5983, in raise_from_not_ok_status
+    raise core._status_to_exception(e) from None  # pylint: disable=protected-access
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.InvalidArgumentError: {{function_node __wrapped__IteratorGetNext_output_types_3_device_/job:localhost/replica:0/task:0/device:CPU:0}} jpeg::Uncompress failed. Invalid JPEG data or crop window.
+	 [[{{node DecodeJpeg}}]] [Op:IteratorGetNext] name: 
+2024-09-02 13:11:08.180866: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-09-02 13:11:08.186642: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-09-02 13:11:08.197415: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-09-02 13:11:08.215069: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-09-02 13:11:08.220504: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-09-02 13:11:08.233994: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-09-02 13:11:09.064348: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/ubuntu/lds/lds_image/image_cache/app2.py:51: UserWarning: You appear to be connected to a DocumentDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/documentdb
+  mongoclient = MongoClient(uri, tls=True, tlsCAFile=SSL_CA_CERT)
+2024-09-02 13:11:11.414884: E tensorflow/core/lib/jpeg/jpeg_mem.cc:329] Premature end of JPEG data. Stopped at line 952/2000
+2024-09-02 13:11:11.418172: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: INVALID_ARGUMENT: jpeg::Uncompress failed. Invalid JPEG data or crop window.
+	 [[{{node DecodeJpeg}}]]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 277, in <module>
+    siamese_model(next(iter(train_dataset)))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/tensorflow/python/data/ops/iterator_ops.py", line 826, in __next__
+    return self._next_internal()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/tensorflow/python/data/ops/iterator_ops.py", line 776, in _next_internal
+    ret = gen_dataset_ops.iterator_get_next(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/tensorflow/python/ops/gen_dataset_ops.py", line 3086, in iterator_get_next
+    _ops.raise_from_not_ok_status(e, name)
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/tensorflow/python/framework/ops.py", line 5983, in raise_from_not_ok_status
+    raise core._status_to_exception(e) from None  # pylint: disable=protected-access
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.InvalidArgumentError: {{function_node __wrapped__IteratorGetNext_output_types_3_device_/job:localhost/replica:0/task:0/device:CPU:0}} jpeg::Uncompress failed. Invalid JPEG data or crop window.
+	 [[{{node DecodeJpeg}}]] [Op:IteratorGetNext] name: 
+2024-09-02 13:11:11.485565: E tensorflow/core/lib/jpeg/jpeg_mem.cc:329] Premature end of JPEG data. Stopped at line 952/2000
+2024-09-02 13:11:11.508381: E tensorflow/core/lib/jpeg/jpeg_mem.cc:329] Premature end of JPEG data. Stopped at line 952/2000
+2024-09-02 13:11:11.512238: E tensorflow/core/lib/jpeg/jpeg_mem.cc:329] Premature end of JPEG data. Stopped at line 952/2000
+2024-09-02 13:11:11.546800: E tensorflow/core/lib/jpeg/jpeg_mem.cc:329] Premature end of JPEG data. Stopped at line 952/2000
+2024-09-02 13:12:36.624364: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-09-02 13:12:36.627694: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-09-02 13:12:36.639554: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-09-02 13:12:36.657172: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-09-02 13:12:36.662600: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-09-02 13:12:36.676126: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-09-02 13:12:37.498304: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/ubuntu/lds/lds_image/image_cache/app2.py:51: UserWarning: You appear to be connected to a DocumentDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/documentdb
+  mongoclient = MongoClient(uri, tls=True, tlsCAFile=SSL_CA_CERT)
+2024-09-02 13:12:39.861297: E tensorflow/core/lib/jpeg/jpeg_mem.cc:329] Premature end of JPEG data. Stopped at line 952/2000
+2024-09-02 13:12:42.110743: E tensorflow/core/lib/jpeg/jpeg_mem.cc:329] Premature end of JPEG data. Stopped at line 952/2000
+ * Serving Flask app 'app2'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1111
+ * Running on http://172.31.20.42:1111
+[33mPress CTRL+C to quit[0m
+152.59.195.111 - - [02/Sep/2024 13:14:26] "OPTIONS /image_upload HTTP/1.1" 200 -
+152.59.195.111 - - [02/Sep/2024 13:14:26] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-02 13:14:26,839] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+152.59.195.111 - - [02/Sep/2024 13:14:26] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-02 13:14:26,957] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7141847bfc40>
+152.59.195.111 - - [02/Sep/2024 13:14:26] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+152.59.195.111 - - [02/Sep/2024 13:18:22] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-02 13:18:22,846] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418453f4c0>
+152.59.195.111 - - [02/Sep/2024 13:18:22] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+152.59.195.111 - - [02/Sep/2024 13:22:40] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-02 13:22:41,052] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418453fb50>
+152.59.195.111 - - [02/Sep/2024 13:22:41] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+49.43.200.110 - - [02/Sep/2024 13:22:47] "POST /image_upload HTTP/1.1" 200 -
+152.59.195.111 - - [02/Sep/2024 13:25:14] "OPTIONS /image_upload HTTP/1.1" 200 -
+152.59.195.111 - - [02/Sep/2024 13:25:14] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-02 13:25:14,562] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418453ee30>
+152.59.195.111 - - [02/Sep/2024 13:25:14] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-02 13:25:14,808] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+152.59.195.111 - - [02/Sep/2024 13:25:14] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-02 13:27:18,359] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418455fec0>
+49.43.200.110 - - [02/Sep/2024 13:27:18] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+152.59.195.111 - - [02/Sep/2024 13:31:27] "OPTIONS /image_upload HTTP/1.1" 200 -
+152.59.195.111 - - [02/Sep/2024 13:31:27] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-02 13:31:28,321] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+152.59.195.111 - - [02/Sep/2024 13:31:28] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-02 13:31:28,351] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418455f5b0>
+152.59.195.111 - - [02/Sep/2024 13:31:28] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+152.59.195.111 - - [02/Sep/2024 13:33:07] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-02 13:33:08,245] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418453fc90>
+152.59.195.111 - - [02/Sep/2024 13:33:08] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+152.59.195.111 - - [02/Sep/2024 13:43:42] "OPTIONS /image_upload HTTP/1.1" 200 -
+152.59.195.111 - - [02/Sep/2024 13:43:42] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-02 13:43:43,128] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+152.59.195.111 - - [02/Sep/2024 13:43:43] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-02 13:43:43,407] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418455f560>
+152.59.195.111 - - [02/Sep/2024 13:43:43] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+152.59.195.111 - - [02/Sep/2024 13:52:29] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-02 13:52:29,703] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418457c720>
+152.59.195.111 - - [02/Sep/2024 13:52:29] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+152.59.195.111 - - [02/Sep/2024 13:59:24] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-02 13:59:25,138] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418455fc90>
+152.59.195.111 - - [02/Sep/2024 13:59:25] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+152.59.195.111 - - [02/Sep/2024 14:02:51] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-02 14:02:52,240] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418455fab0>
+152.59.195.111 - - [02/Sep/2024 14:02:52] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+152.59.195.56 - - [02/Sep/2024 17:09:53] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-02 17:09:53,497] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418457cef0>
+152.59.195.56 - - [02/Sep/2024 17:09:53] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+13.40.98.171 - - [02/Sep/2024 17:46:36] code 400, message Bad request version ('À\x14À')
+13.40.98.171 - - [02/Sep/2024 17:46:36] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03è\\\x1fâÝõä\x89\x86o«8Ø2\x88ïtC©áÔ\x80i\x14§¼(§ÌÕ\x8a¨\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+13.40.98.171 - - [02/Sep/2024 17:48:38] code 400, message Bad request version ('À\x14À')
+13.40.98.171 - - [02/Sep/2024 17:48:38] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03\x8c\x16=\x1fìW'v\x97\x14¡?\x92xZÀÒÓý4\x11O:\x98Ûá\x04\x09OÒ±1\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+13.40.98.171 - - [02/Sep/2024 17:50:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+13.40.98.171 - - [02/Sep/2024 17:51:34] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00±\x01\x00\x00\xad\x03\x03+_{i\x92\x9f\x19;\x8c:\\1\x02cR\x10A9¸\x99''}÷\x12Î\x8f!-ÿùñ\x00\x00PÀ/À+À\x11À\x07À\x13À")
+13.40.98.171 - - [02/Sep/2024 17:51:34] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03+_{i\x92\x9f\x19;\x8c:\\1\x02cR\x10A9¸\x99''}÷\x12Î\x8f!-ÿùñ\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+13.40.98.171 - - [02/Sep/2024 17:53:21] "[33mGET /manage/account/login HTTP/1.1[0m" 404 -
+13.40.98.171 - - [02/Sep/2024 17:54:53] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00±\x01\x00\x00\xad\x03\x03òPqUoÆPZ·')
+13.40.98.171 - - [02/Sep/2024 17:54:53] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03òPqUoÆPZ·\x0b·º$®>/\x03Ò¿\x97§X[0m" 400 -
+13.40.98.171 - - [02/Sep/2024 17:56:28] "[33mGET /admin/index.html HTTP/1.1[0m" 404 -
+13.40.98.171 - - [02/Sep/2024 17:59:53] "[33mGET /index.html HTTP/1.1[0m" 404 -
+13.40.98.171 - - [02/Sep/2024 18:01:22] code 400, message Bad request version ('À\x14À')
+13.40.98.171 - - [02/Sep/2024 18:01:22] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03:»\x91\x1ee*µ8éµ1Ô\x90e"ÝÆñâ¯I9\x01\x05YçMø}ÆïT\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+13.40.98.171 - - [02/Sep/2024 18:02:50] "[33mGET /+CSCOE+/logon.html HTTP/1.1[0m" 404 -
+13.40.98.171 - - [02/Sep/2024 18:07:52] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00±\x01\x00\x00\xad\x03\x03')
+13.40.98.171 - - [02/Sep/2024 18:07:52] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03\x1e8¸[0m" 400 -
+13.40.98.171 - - [02/Sep/2024 18:09:21] "[33mGET /logon.htm HTTP/1.1[0m" 404 -
+13.40.98.171 - - [02/Sep/2024 18:12:38] "[33mGET /login.jsp HTTP/1.1[0m" 404 -
+13.40.98.171 - - [02/Sep/2024 18:14:24] code 400, message Bad request version ('À\x14À')
+13.40.98.171 - - [02/Sep/2024 18:14:24] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03±\x90:Ê\x15×°Y\x0cÒºL\x06f\x87Ô¬\x85YY@EpÈ\x06qÕ$Iì\x9d7\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+13.40.98.171 - - [02/Sep/2024 18:15:42] "[33mGET /doc/index.html HTTP/1.1[0m" 404 -
+13.40.98.171 - - [02/Sep/2024 18:17:25] code 400, message Bad request version ('À\x14À')
+13.40.98.171 - - [02/Sep/2024 18:17:25] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03\x0e.\x13à!¥\x91\x1dr¡+}{\x87Ô°\x0e³þî\x9d¢½ì0`\x1eÃ{V\x83o\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+13.40.98.171 - - [02/Sep/2024 18:18:59] "[33mGET / HTTP/1.1[0m" 404 -
+18.135.17.8 - - [02/Sep/2024 19:15:36] code 400, message Bad request version ('À\x14À')
+18.135.17.8 - - [02/Sep/2024 19:15:36] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03FÊ\x8f\x0fO6° qp\x7f(Ìpù\x88÷~)Ò«¬ß\x01\x85\\\x02Û=Ö¶\x14\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+18.135.17.8 - - [02/Sep/2024 19:18:04] code 400, message Bad request version ('À\x14À')
+18.135.17.8 - - [02/Sep/2024 19:18:04] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x034\x06ù2\x846ñÇ¼.lW\x0c\x8b\x0bB&¿y\\\x18F/²[\x7fHù\x8d\x1a^¸\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+18.135.17.8 - - [02/Sep/2024 19:19:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+18.135.17.8 - - [02/Sep/2024 19:21:06] code 400, message Bad request version ('À\x14À')
+18.135.17.8 - - [02/Sep/2024 19:21:06] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03ïpä²0sæîy\x89u6¡\x8aÜà!\x14\x9a\x1cË1GfKm\x11[;\x15ëé\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+18.135.17.8 - - [02/Sep/2024 19:22:37] "[33mGET /manage/account/login HTTP/1.1[0m" 404 -
+18.135.17.8 - - [02/Sep/2024 19:24:13] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00±\x01\x00\x00\xad\x03\x03Ý\xadÙ½NÏâ\x96\x1ag\x1aùOÄ\x87dÛ\x90\x05Í§Æ©$X\x90¥Sû\x91kÏ\x00\x00PÀ/À+À\x11À\x07À\x13À')
+18.135.17.8 - - [02/Sep/2024 19:24:13] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03Ý­Ù½NÏâ\x96\x1ag\x1aùOÄ\x87dÛ\x90\x05Í§Æ©$X\x90¥Sû\x91kÏ\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+18.135.17.8 - - [02/Sep/2024 19:25:44] "[33mGET /admin/index.html HTTP/1.1[0m" 404 -
+18.135.17.8 - - [02/Sep/2024 19:27:23] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00±\x01\x00\x00\xad\x03\x03=\x107Ò\x0fùNæcxçÇÒi\x92Ç\x1aºN¸>\x8a¬ï°\x125mzÇ\x06ê\x00\x00PÀ/À+À\x11À\x07À\x13À')
+18.135.17.8 - - [02/Sep/2024 19:27:23] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03=\x107Ò\x0fùNæcxçÇÒi\x92Ç\x1aºN¸>\x8a¬ï°\x125mzÇ\x06ê\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+18.135.17.8 - - [02/Sep/2024 19:28:53] "[33mGET /index.html HTTP/1.1[0m" 404 -
+18.135.17.8 - - [02/Sep/2024 19:30:31] code 400, message Bad request syntax ('\x16\x03\x01\x00±\x01\x00\x00\xad\x03\x03Å\x1a\x91ç±µ\x8dÏÃ7Uêàê&uMÿòÄ')
+18.135.17.8 - - [02/Sep/2024 19:30:31] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03Å\x1a\x91ç±µ\x8dÏÃ7Uêàê&uMÿòÄ[0m" 400 -
+18.135.17.8 - - [02/Sep/2024 19:32:02] "[33mGET /+CSCOE+/logon.html HTTP/1.1[0m" 404 -
+18.135.17.8 - - [02/Sep/2024 19:33:37] code 400, message Bad request version ('À\x14À')
+18.135.17.8 - - [02/Sep/2024 19:33:37] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03óçp\x1cÐ.#\x95\x9c\x9d,ánA{\x87ûÁ§GcoDÛ\x1b³p\x8e F; \x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+18.135.17.8 - - [02/Sep/2024 19:35:07] "[33mGET /cgi-bin/login.cgi HTTP/1.1[0m" 404 -
+18.135.17.8 - - [02/Sep/2024 19:36:42] code 400, message Bad request version ('À\x14À')
+18.135.17.8 - - [02/Sep/2024 19:36:42] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03\x16Tß½Sk÷+\x9ao\x7fü\x0cÏO¿b]:ûÇî\x9fâü\x8er_\x9dÝ\x96À\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+18.135.17.8 - - [02/Sep/2024 19:38:14] "[33mGET /logon.htm HTTP/1.1[0m" 404 -
+18.135.17.8 - - [02/Sep/2024 19:39:49] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00±\x01\x00\x00\xad\x03\x03j$/%V5LÿÐ\x8cé\x0571\x00\\?õ'0sOôÙ\x97¶7£¿F\x92Ê\x00\x00PÀ/À+À\x11À\x07À\x13À")
+18.135.17.8 - - [02/Sep/2024 19:39:49] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03j$/%V5LÿÐ\x8cé\x0571\x00\\?õ'0sOôÙ\x97¶7£¿F\x92Ê\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+18.135.17.8 - - [02/Sep/2024 19:41:19] "[33mGET /login.jsp HTTP/1.1[0m" 404 -
+18.135.17.8 - - [02/Sep/2024 19:42:51] code 400, message Bad request version ('À\x14À')
+18.135.17.8 - - [02/Sep/2024 19:42:51] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03"Ê³j:ÐQ5 \x8a;«82³\x08/\x96Ù\x98Ù\x1e"¶é¥B¸çª<ä\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+18.135.17.8 - - [02/Sep/2024 19:44:21] "[33mGET /doc/index.html HTTP/1.1[0m" 404 -
+18.135.17.8 - - [02/Sep/2024 19:45:52] code 400, message Bad request version ('À\x14À')
+18.135.17.8 - - [02/Sep/2024 19:45:52] "[31m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03\x11ÿV\x1bÞ\x094)e\x84;][g`­`e\x8e\x0dMÓw\x8c2=²À"8ät\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+18.135.17.8 - - [02/Sep/2024 19:47:21] "[33mGET / HTTP/1.1[0m" 404 -
+152.59.194.93 - - [03/Sep/2024 02:36:56] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 02:36:57,192] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418455f740>
+152.59.194.93 - - [03/Sep/2024 02:36:57] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+152.59.194.93 - - [03/Sep/2024 02:37:59] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 02:38:00,168] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x71418453fce0>
+152.59.194.93 - - [03/Sep/2024 02:38:00] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+49.43.203.101 - - [03/Sep/2024 03:18:50] "[31m[1mGET /image_upload HTTP/1.1[0m" 405 -
+35.203.210.106 - - [03/Sep/2024 05:33:49] "[33mGET / HTTP/1.1[0m" 404 -
+14.98.118.98 - - [03/Sep/2024 05:48:38] "POST /image_upload HTTP/1.1" 200 -
+2024-09-03 06:04:02.661735: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-09-03 06:04:02.665046: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-09-03 06:04:02.675786: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-09-03 06:04:02.694270: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-09-03 06:04:02.699622: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-09-03 06:04:02.713002: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-09-03 06:04:03.543884: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/ubuntu/lds/lds_image/image_cache/app2.py:51: UserWarning: You appear to be connected to a DocumentDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/documentdb
+  mongoclient = MongoClient(uri, tls=True, tlsCAFile=SSL_CA_CERT)
+ * Serving Flask app 'app2'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1111
+ * Running on http://172.31.20.42:1111
+[33mPress CTRL+C to quit[0m
+14.98.118.98 - - [03/Sep/2024 06:04:17] "POST /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 06:20:40] "POST /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 10:54:12] "POST /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 10:57:34] "POST /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 11:32:54] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 11:32:54] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 11:32:55,114] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c21198f0>
+14.98.118.98 - - [03/Sep/2024 11:32:55] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-03 11:32:55,273] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+14.98.118.98 - - [03/Sep/2024 11:32:55] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 11:58:12] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 11:58:12] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 11:58:12,986] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c1787f60>
+14.98.118.98 - - [03/Sep/2024 11:58:12] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-03 11:58:13,162] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+14.98.118.98 - - [03/Sep/2024 11:58:13] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:01:07] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 12:01:07] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:01:07,562] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c2131670>
+14.98.118.98 - - [03/Sep/2024 12:01:07] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-03 12:01:07,742] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+14.98.118.98 - - [03/Sep/2024 12:01:07] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:09:48] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 12:09:48] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 12:09:49] "POST /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:09:49,904] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+14.98.118.98 - - [03/Sep/2024 12:09:49] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-03 12:10:37,214] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 321, in main
+    img_response.raise_for_status()  # Check if the request was successful
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://lds-video-upload.s3.amazonaws.com/GilbertArizonaTemple.jpg
+14.98.118.98 - - [03/Sep/2024 12:10:37] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:13:32] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 12:13:32] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:13:33,723] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+14.98.118.98 - - [03/Sep/2024 12:13:33] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:13:40] "POST /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 12:15:22] "[31m[1mGET /image_upload HTTP/1.1[0m" 405 -
+14.98.118.98 - - [03/Sep/2024 12:16:17] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:16:18,519] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17a4db0>
+14.98.118.98 - - [03/Sep/2024 12:16:18] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:19:41] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:19:42,419] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17bef20>
+14.98.118.98 - - [03/Sep/2024 12:19:42] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:21:15] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:21:15,583] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17a5710>
+14.98.118.98 - - [03/Sep/2024 12:21:15] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:34:13] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:34:14,390] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17bf0b0>
+14.98.118.98 - - [03/Sep/2024 12:34:14] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:36:48] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:36:48,798] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17bcfe0>
+14.98.118.98 - - [03/Sep/2024 12:36:48] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:39:22] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:39:23,507] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c1786700>
+14.98.118.98 - - [03/Sep/2024 12:39:23] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:40:37] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 12:40:37] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:40:38,326] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+14.98.118.98 - - [03/Sep/2024 12:40:38] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:40:43] "POST /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 12:43:05] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:43:06,122] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 321, in main
+    img_response.raise_for_status()  # Check if the request was successful
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://lds-test-public.s3.amazonaws.com/IdahoBoiseTemple.mp4
+14.98.118.98 - - [03/Sep/2024 12:43:06] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-03 12:46:05,854] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 321, in main
+    img_response.raise_for_status()  # Check if the request was successful
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://lds-video-upload.s3.amazonaws.com/GilbertArizonaTemple.jpg
+14.98.118.98 - - [03/Sep/2024 12:46:05] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:46:15] "POST /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 12:48:54] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:48:55,791] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17a54e0>
+14.98.118.98 - - [03/Sep/2024 12:48:55] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:54:11] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:54:12,201] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17bdda0>
+14.98.118.98 - - [03/Sep/2024 12:54:12] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:55:54] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:55:54,859] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17bf8d0>
+14.98.118.98 - - [03/Sep/2024 12:55:54] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:57:37] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:57:38,167] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c1787510>
+14.98.118.98 - - [03/Sep/2024 12:57:38] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 12:58:52] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 12:58:52] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 12:58:53] "POST /image_upload HTTP/1.1" 200 -
+[2024-09-03 12:58:53,379] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+14.98.118.98 - - [03/Sep/2024 12:58:53] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+178.32.170.30 - - [03/Sep/2024 12:59:32] code 400, message Bad request version ("ÎÛ½\x84Þ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+178.32.170.30 - - [03/Sep/2024 12:59:32] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03÷á\x8e\x92lÎ[eiO$&(!ÖJÕe¨ÒÂAß\x8dP5eºu~\x16Y \x15ìR£½R\x1eÿO(I·\x9c6\x10\x1b&·vïY\x1c\x1cî¯;\x85ÎÛ½\x84Þ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" 400 -
+142.4.218.114 - - [03/Sep/2024 13:00:55] code 400, message Bad request version ('0øñ\x16t')
+142.4.218.114 - - [03/Sep/2024 13:00:55] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03,>i\x88\x19t\x97Àå\x10¬\x99\x0d\x94F\x85|\x0b0øñ\x16t[0m" 400 -
+14.98.118.98 - - [03/Sep/2024 13:04:57] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 13:04:57] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 13:04:57] "POST /image_upload HTTP/1.1" 200 -
+[2024-09-03 13:04:57,932] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+14.98.118.98 - - [03/Sep/2024 13:04:57] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 13:06:08] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 13:06:09,405] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17be7f0>
+14.98.118.98 - - [03/Sep/2024 13:06:09] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 13:08:49] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 13:08:50,150] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17bd260>
+14.98.118.98 - - [03/Sep/2024 13:08:50] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 13:18:03] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 13:18:03,824] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17ccbd0>
+14.98.118.98 - - [03/Sep/2024 13:18:03] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 13:20:55] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 13:20:55,354] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c1787560>
+14.98.118.98 - - [03/Sep/2024 13:20:55] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 13:34:56] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 13:34:57,193] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17bdf30>
+14.98.118.98 - - [03/Sep/2024 13:34:57] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 13:55:56] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 13:55:56] "OPTIONS /image_upload HTTP/1.1" 200 -
+14.98.118.98 - - [03/Sep/2024 13:55:56] "POST /image_upload HTTP/1.1" 200 -
+[2024-09-03 13:55:57,054] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+14.98.118.98 - - [03/Sep/2024 13:55:57] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-03 13:55:59,920] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+14.98.118.98 - - [03/Sep/2024 13:55:59] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-03 13:55:59,929] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+14.98.118.98 - - [03/Sep/2024 13:55:59] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+14.98.118.98 - - [03/Sep/2024 13:57:04] "OPTIONS /image_upload HTTP/1.1" 200 -
+[2024-09-03 13:57:05,908] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 328, in main
+    file = Image.open(image).convert("RGB")
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/PIL/Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7a86c17bf880>
+14.98.118.98 - - [03/Sep/2024 13:57:05] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+147.185.133.129 - - [03/Sep/2024 15:14:59] "[33mGET / HTTP/1.1[0m" 404 -
+152.58.197.23 - - [03/Sep/2024 15:17:39] "OPTIONS /image_upload HTTP/1.1" 200 -
+152.58.197.23 - - [03/Sep/2024 15:17:39] "OPTIONS /image_upload HTTP/1.1" 200 -
+152.58.197.23 - - [03/Sep/2024 15:17:39] "POST /image_upload HTTP/1.1" 200 -
+[2024-09-03 15:17:39,925] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+152.58.197.23 - - [03/Sep/2024 15:17:39] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-03 15:17:40,259] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+152.58.197.23 - - [03/Sep/2024 15:17:40] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+185.242.226.44 - - [03/Sep/2024 16:34:54] "[33mGET / HTTP/1.1[0m" 404 -
+162.216.149.177 - - [03/Sep/2024 22:04:55] "[33mGET / HTTP/1.1[0m" 404 -
+49.37.131.73 - - [04/Sep/2024 03:08:22] "OPTIONS /image_upload HTTP/1.1" 200 -
+49.37.131.73 - - [04/Sep/2024 03:08:22] "OPTIONS /image_upload HTTP/1.1" 200 -
+49.37.131.73 - - [04/Sep/2024 03:08:22] "POST /image_upload HTTP/1.1" 200 -
+[2024-09-04 03:08:23,457] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+49.37.131.73 - - [04/Sep/2024 03:08:23] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+[2024-09-04 03:08:23,920] ERROR in app: Exception on /image_upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image_venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/lds/lds_image/image_cache/app2.py", line 318, in main
+    s3_url = data["s3_url"]
+             ~~~~^^^^^^^^^^
+KeyError: 's3_url'
+49.37.131.73 - - [04/Sep/2024 03:08:23] "[35m[1mPOST /image_upload HTTP/1.1[0m" 500 -
+147.185.132.206 - - [04/Sep/2024 16:06:02] "[33mGET / HTTP/1.1[0m" 404 -
