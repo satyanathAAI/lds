@@ -1,0 +1,11 @@
+FROM nvidia/cuda:12.3.2-devel-ubuntu22.04
+WORKDIR /usr/app
+COPY . /usr/app
+EXPOSE 8099
+RUN apt update
+RUN apt install -y python3
+RUN apt install -y python3-pip
+RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+RUN pip install --no-cache-dir -r requirements.txt
+ENV PYTHONPATH /usr/app
+CMD ["python3","get_faces_main.py"]
